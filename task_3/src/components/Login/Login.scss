@@ -1,0 +1,15 @@
+.login {
+  height: 100vh;
+  &__right {
+    background: #fafafa;
+  }
+  &__input {
+    height: 59px;
+    border: 1px solid #b0b7c3;
+    border-radius: 7px;
+  }
+  &__btn {
+    height: 42px;
+    background: #4276fb;
+  }
+}

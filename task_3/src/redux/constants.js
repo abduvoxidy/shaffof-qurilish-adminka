@@ -1,0 +1,2 @@
+export const FETCH_USERS = "GET/FETCH_USERS";
+export const REQUEST_POSTS = "REQUEST_POSTS";

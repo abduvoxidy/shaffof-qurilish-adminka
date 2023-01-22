@@ -1,0 +1,27 @@
+.users {
+  &__select {
+    width: 300px;
+  }
+  &__input {
+    width: 184px;
+    height: 38px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 10px 16px;
+    font-size: 13px;
+    &:focus {
+      outline: none;
+      border-color: #51438f;
+    }
+  }
+  &__btn {
+    color: white;
+    height: 32px;
+    padding: 0 15px;
+    background: #51438f;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+  }
+}

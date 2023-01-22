@@ -1,0 +1,29 @@
+.dashboard {
+  padding-top: 90px;
+
+  &__header {
+    position: fixed;
+    top: 0;
+    background: #51438f;
+    height: 76px;
+    z-index: 1;
+    padding: 0 30px;
+  }
+  .sidebar {
+    z-index: 1;
+    padding: 0 30px;
+    top: 76px;
+    bottom: 0;
+    left: 0;
+    background: #51438f;
+    height: calc(100vh - 76px);
+    position: fixed;
+    width: 264px;
+  }
+  .outlet {
+    position: absolute;
+    left: 280px;
+    top: 0;
+    right: 15px;
+  }
+}
